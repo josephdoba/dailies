@@ -1,3 +1,3 @@
-const myDictionary = {1:"one", 2: "two", 3: "three"}
+const myDictionary = {1:"one", 2: [1,"two in a list",3], 3: "three"}
 
-console.log(myDictionary[3])
+console.log(myDictionary[2][1])

@@ -1,0 +1,6 @@
+<?
+
+$isBool = True;
+
+echo $isBool;
+?>

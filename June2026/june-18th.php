@@ -1,6 +1,6 @@
-<?
+<php?
 
 $isBool = True;
 
-echo $isBool;
+var_dump($isBool);
 ?>

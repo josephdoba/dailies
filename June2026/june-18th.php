@@ -1,6 +1,6 @@
-<php?
+<?php
 
-$isBool = True;
+$isVar = "Yep this is a variable!";
 
-var_dump($isBool);
+echo "This: $isVar";
 ?>

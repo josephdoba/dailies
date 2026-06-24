@@ -1,4 +1,4 @@
- let audio = document.getElementById("tune")
+let audio = document.getElementById("tune")
 
 const play = () => {
     audio.play();
@@ -7,3 +7,13 @@ const play = () => {
 const pause = () => {
     audio.pause();
 }
+
+//  taken from https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+
+const audioCtx = new AudioContext();
+const analyzer = audioCtx.createAnalyzer()
+
+const source = audioCtx.createMediaStreamSource(stream);
+source.connect(analyser);
+analyser.connect(distortion);
+distortion.connect(audioCtx.destination);

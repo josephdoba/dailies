@@ -33,7 +33,7 @@ function App() {
             className="counter"
             onClick={() => setCount((count) => count - 1)}
           >
-            -
+            +
           </button>
           
           <button
@@ -41,7 +41,7 @@ function App() {
             className="counter"
             onClick={() => setCount((count) => count + 1)}
           >
-            +
+            -
           </button>
         </div>
         

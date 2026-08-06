@@ -4,4 +4,6 @@
         "email" => "pineapple@underthesea.com",
         "role" => "User"
     ];
+
+    echo $user["name"];
 ?>

@@ -5,4 +5,6 @@
         "vegetable" => "brocolli",
         "carbs" => "rice"
     );
+
+    var_dump($myObject)
 ?>

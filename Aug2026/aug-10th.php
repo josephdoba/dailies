@@ -1,3 +1,8 @@
 <?php
-    myList = []
+    $myObject = array(
+        "fruit" => "apple",
+        "meat" => "chicken",
+        "vegetable" => "brocolli",
+        "carbs" => "rice"
+    );
 ?>

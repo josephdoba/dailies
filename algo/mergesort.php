@@ -15,7 +15,11 @@ then amalgamate the correct order to a single array -->
     $arrayDivide = 2;
 
     foreach ($array as $i){
-        echo $i;
+        if ($i !== (0 % 2)){
+            echo "odd";
+        } else {
+            echo "even";
+        }
     }
 
 

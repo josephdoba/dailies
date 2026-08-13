@@ -14,7 +14,9 @@ then amalgamate the correct order to a single array -->
     $array = [4, 2, 7, 5, 3, 8, 9];
     $arrayDivide = 2;
 
-    echo $array[2]
+    foreach ($array as $i){
+        echo $i;
+    }
 
 
 ?>

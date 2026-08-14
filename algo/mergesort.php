@@ -11,16 +11,25 @@ Sort each sub array of each element from lowest to highest, by checking the curr
 then amalgamate the correct order to a single array -->
 
 <?php
-    $array = [4, 2, 7, 5, 3, 8, 9];
-    $arrayDivide = 2;
 
-    foreach ($array as $i){
-        if ($i % 2 == 1){
-            echo "odd ";
-        } else {
-            echo "even ";
+// initial data
+
+    $array = [4, 2, 7, 5, 3, 8, 9];
+    function sorting($arraySort){
+        foreach ($arraySort as $i){
+            if ($i % 2 == 1){
+                echo "odd ";
+            } else {
+                echo "even ";
+            }
         }
+
+
     }
+
+    
+    sorting($array)
+
 
 
 ?>

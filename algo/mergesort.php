@@ -17,8 +17,8 @@ then amalgamate the correct order to a single array -->
     $array = [4, 2, 7, 5, 3, 8, 9];
     function sorting($arraySort){
         foreach ($arraySort as $i){
-            if ($i % 2 == 1){
-                echo "odd ";
+            if ($i > ($i + 1)){
+                echo "{$i} is higher than {($i+1)}";
             } else {
                 echo "even ";
             }

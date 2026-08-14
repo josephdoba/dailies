@@ -17,10 +17,10 @@ then amalgamate the correct order to a single array -->
     $array = [4, 2, 7, 5, 3, 8, 9];
     function sorting($arraySort){
         foreach ($arraySort as $i){
-            if ($i > ($i + 1)){
-                echo "{$i} is higher than {($i+1)}";
+            if ($i < 5){
+                echo "{$i} is less than 5\n";
             } else {
-                echo "even ";
+                echo "{$i} is greater or equal to 5\n";
             }
         }
 

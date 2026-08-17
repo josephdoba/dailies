@@ -12,6 +12,14 @@ then amalgamate the correct order to a single array -->
 
 <?php
 
+    $normalArray = [1,2,3];
+    $objectArray = [1 => "one", 2 => "two", 3 =>"three"];
+
+    $normalArrayType = gettype($normalArray);
+    $objectArrayType = gettype($objectArray);
+    echo "the data type of Array is {$normalArrayType}";
+    echo "the data type of object is {$objectArrayType}";
+
 // initial data
 
     $array = [4, 2, 7, 5, 3, 8, 9];

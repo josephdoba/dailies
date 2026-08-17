@@ -17,8 +17,8 @@ then amalgamate the correct order to a single array -->
 
     $normalArrayType = gettype($normalArray);
     $objectArrayType = gettype($objectArray);
-    echo "the data type of Array is {$normalArrayType}";
-    echo "the data type of object is {$objectArrayType}";
+    echo "the data type of Array is: {$normalArrayType}\n";
+    echo "the data type of Object is {$objectArrayType}\n";
 
 // initial data
 

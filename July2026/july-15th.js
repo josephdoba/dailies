@@ -1,0 +1,1 @@
+console.log("mkay so bit different today.. more of a note. but! I have started planning out a wireframe for an upcoming personal project, and something nerd related so, that'll be tomorrows project")

@@ -12,7 +12,9 @@ then amalgamate the correct order to a single array -->
 
 <?php
 
-    $array = [4, 2, 7, 5, 3, 8, 9, 11];
+    $arrayToSort = [4, 2, 7, 5, 3, 8, 9, 11];
+
+    echo $arraytoSort;
     function sorting($arraySort){
         foreach ($arraySort as $i){
             if ($i < 5){
@@ -26,7 +28,7 @@ then amalgamate the correct order to a single array -->
     }
 
     
-    sorting($array)
+    sorting($arrayToSort)
 
 
 

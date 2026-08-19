@@ -16,11 +16,12 @@ then amalgamate the correct order to a single array -->
 
     echo $arraytoSort;
     function sorting($arraySort){
+        
         foreach ($arraySort as $i){
             if ($i < 5){
-                echo "{$i} is less than 5\n";
+                echo "{$i} is less than 5... skipping\n";
             } else {
-                echo "{$i} is greater or equal to 5\n";
+                list($arraySort[$i+1], $$arraySort[$i]) = array($$arraySort[$i], $$arraySort[$i+1]);
             }
         }
 

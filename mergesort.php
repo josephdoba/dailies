@@ -12,18 +12,19 @@ then amalgamate the correct order to a single array -->
 
 <?php
 
-    $arrayToSort = [4, 2, 7, 5, 3, 8, 9, 11];
+    $arrayToSort = [4, 2, 7, 5, 3, 8, 1, 9, 6];
 
-    echo $arraytoSort;
     function sorting($arraySort){
         
         foreach ($arraySort as $i){
             if ($i < 5){
-                echo "{$i} is less than 5... skipping\n";
+                echo "{$i} is less than 5\n";
             } else {
-                list($arraySort[$i+1], $$arraySort[$i]) = array($$arraySort[$i], $$arraySort[$i+1]);
+                echo "{$i} is equal or greater than 5\n";
             }
         }
+
+        return $arraySort;
 
 
     }
